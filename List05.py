@@ -6,5 +6,10 @@ def main(list1,i):
         i (int): parameter
     Returns:
         list: return answer
-    """
-    return
+    """ 
+    list1=[1,2,3,4,5]
+    x=list1[i]
+
+    return x
+
+
