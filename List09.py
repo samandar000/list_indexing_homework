@@ -6,4 +6,14 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    i = 0
+    k = 0
+    while i < len(list1):
+        if list1[0] == list1[i]:
+            k += 1
+        i += 1
+    if k == len(list1):
+        print(True)
+    else:
+       print(False)
+    
